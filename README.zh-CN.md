@@ -97,11 +97,21 @@
 - **投影设置**：选择投影模型并调节视野/镜头 FOV
 - **播放控制行**：前后跳转 15 秒、播放/暂停或拖动时间轴
 
+<p align="center">
+  <img src="assets/readme-gifs/vr2xr-player-1.gif" alt="在 vr2xr 中打开视频" width="28%">
+  &nbsp;
+  <img src="assets/readme-gifs/vr2xr-player-3.gif" alt="调节 vr2xr 投影设置" width="66%">
+</p>
+
 ## SMB 网络共享
 
 输入服务器主机名或 IP 地址以及共享名。需要身份验证时，还可以填写域、用户名和密码。启用 **Remember this account securely** 可将配置安全地保存在设备上；长按已保存的配置可以将其删除。
 
 浏览器会显示文件夹和支持的视频，在条件允许时生成缩略图，并支持按从新到旧或从旧到新排序。视频数据由设备直接从 SMB 服务器读取，不会复制给开发者或任何中间服务。
+
+<p align="center">
+  <img src="assets/readme-gifs/vr2xr-player-2.gif" alt="浏览并播放 SMB 网络共享中的视频" width="85%">
+</p>
 
 ## 构建与测试
 

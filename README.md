@@ -95,11 +95,21 @@ If the glasses are disconnected during playback, the video pauses and waits for 
 - **Projection settings**: Select the projection model and tune view/lens FOV
 - **Playback row**: Seek backward/forward 15 seconds, play/pause, or scrub the timeline
 
+<p align="center">
+  <img src="assets/readme-gifs/vr2xr-player-1.gif" alt="Open a video in vr2xr" width="28%">
+  &nbsp;
+  <img src="assets/readme-gifs/vr2xr-player-3.gif" alt="Adjust vr2xr projection settings" width="66%">
+</p>
+
 ## SMB shares
 
 Enter the server host/IP address and share name. Domain, username, and password are available for authenticated shares. Enable **Remember this account securely** to save the profile on the device; long-press a saved profile to remove it.
 
 The browser shows folders and supported videos, generates thumbnails when possible, and can sort entries newest-first or oldest-first. Video data is read directly from the SMB server and is not copied to the developer or an intermediary service.
+
+<p align="center">
+  <img src="assets/readme-gifs/vr2xr-player-2.gif" alt="Browse and play videos from an SMB share" width="85%">
+</p>
 
 ## Build and test
 
